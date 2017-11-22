@@ -1,0 +1,22 @@
+{
+    "name": "green-joker",
+    "displayName": "Green Joker",
+    "description": "Joker Green Theme is based upon Joker theme. Colors have different meaning in accordance to the importance in the program (determined exclusively by author's own opinions).  * @Green - variables * @Blue - strings * @Darker Blue - comments * @Purple - keywords * @Yellow - this * @Red - controls (return, throw etc.)",
+    "version": "0.0.1",
+    "publisher": "armikhalev",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Green Joker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Green Joker-color-theme.json"
+            }
+        ]
+    }
+}
