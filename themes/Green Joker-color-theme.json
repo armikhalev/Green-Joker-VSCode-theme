@@ -1,6 +1,6 @@
 {
 	"name": "Green Joker",
-	"type": "dark",
+"type": "dark",
 	"colors": {
 		"focusBorder": "#444e60",
 		"widget.shadow": "#0000001a",
@@ -38,12 +38,14 @@
 		"tab.border": "#73819e",
 		"tab.activeBorder": "#6a6b6e",
 		"editorGroupHeader.tabsBackground": "#263238",
-		"statusBar.background": "#263238",
+		"statusBar.background": "#4286f4",
+		"statusBar.noFolderBackground": "#4286f4",
 		"activityBar.background": "#242530",
 		"activityBar.foreground": "#88c0d066",
 		"activityBarBadge.background": "#263238",
 		"activityBarBadge.foreground": "#b9fcb4",
-		"sideBar.background": "#263238"
+		"sideBar.background": "#263238",
+		"statusBar.debuggingBackground": "#4286f4"
 	},
 	"tokenColors": [
 		{
@@ -838,6 +840,13 @@
 			"scope": "variable.other.readwrite",
 			"settings": {
 				"foreground": "#b3ff00b2"
+			}
+		},
+		{
+			"scope": "storage.modifier",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ff0000"
 			}
 		}
 	]
